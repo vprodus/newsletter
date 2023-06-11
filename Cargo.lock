@@ -1163,6 +1163,7 @@ dependencies = [
  "config",
  "env_logger",
  "log",
+ "once_cell",
  "reqwest",
  "secrecy",
  "serde",
