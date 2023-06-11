@@ -11,6 +11,7 @@ path = "src/main.rs"
 name = "newsletter"
 
 [dependencies]
+env_logger = "0.9"
 config = { version = "0.13", default-features = false, features = ["yaml"] }
 actix-web = "4"
 tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
