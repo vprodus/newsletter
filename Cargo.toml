@@ -11,6 +11,7 @@ path = "src/main.rs"
 name = "newsletter"
 
 [dependencies]
+log = "0.4"
 env_logger = "0.9"
 config = { version = "0.13", default-features = false, features = ["yaml"] }
 actix-web = "4"
